@@ -1,0 +1,42 @@
+{
+  "name": "lifedentalsms",
+  "version": "1.0.0",
+  "description": "Api de comunicação com o twilio para efetuar e receber sms",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiopovila/sms.git"
+  },
+  "keywords": [
+    "sms",
+    "twilio",
+    "node",
+    "life",
+    "dental",
+    "api",
+    "message",
+    "mensagens",
+    "mensagem",
+    "messages",
+    "enviar",
+    "receber",
+    "send",
+    "receive"
+  ],
+  "author": "Caio Mendes Capovila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caiopovila/sms/issues"
+  },
+  "homepage": "https://github.com/caiopovila/sms#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.5.0",
+    "twilio": "^3.60.0"
+  }
+}
