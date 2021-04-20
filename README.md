@@ -5,4 +5,4 @@
 ## Routes
 - GET '/' => index;
 - POST '/' => send message with params in body: text, to, from;
-- POST '/test' => send test message for number +5511963614557;
+- POST '/test' => send test message;
